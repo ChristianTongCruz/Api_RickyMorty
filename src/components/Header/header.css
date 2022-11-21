@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.docs,
+.docs button {
+  font-family: "Roboto", "Helvetica";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: #333333;
+}
+
+.docs a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.docs p:hover {
+  color: #ff9800;
+}
+
+.docs button {
+  font-size: 14px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #ff9800;
+  border-radius: 10px;
+}
+
+.docs button:hover {
+  color: white;
+  background-color: #ff9800;
+}
